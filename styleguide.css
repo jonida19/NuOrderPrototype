@@ -1,0 +1,83 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --black-2: #000000b2;
+  --black-3: #00000099;
+  --gallery: #f0ecec;
+  --white: #ffffff;
+ 
+  --font-size-l: 30px;
+  --font-size-m: 25px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 35px;
+  --font-size-xxxl: 48px;
+  --font-size-xxxxl: 55px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-ravi_prakash: "Ravi Prakash", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.poppins-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-35px {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-25px {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-semi-bold-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.roboto-normal-black-25px-2 {
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

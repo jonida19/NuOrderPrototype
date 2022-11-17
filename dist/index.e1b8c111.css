@@ -1,0 +1,721 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400|Ravi+Prakash:400|Inter:400";
+@import "https://px.animaapp.com/636aa02fcfd2d441aadb1a34.636aa02f538ebf12fdd0a5b5.iatCPZU.rcp.png";
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.container-center-horizontal {
+  pointer-events: none;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+
+.valign-text-middle {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-page {
+  background-color: var(--white);
+  width: 1440px;
+  border: 1px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.overlap-group2-1 {
+  height: 1024px;
+  min-width: 1440px;
+  background-position: 50%;
+  background-size: cover;
+  align-items: flex-start;
+  display: flex;
+}
+
+.flex-col-1 {
+  min-height: 795px;
+  width: 886px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.logo {
+  height: 223px;
+  width: 511px;
+}
+
+.title {
+  color: var(--white);
+  font-family: var(--font-family-ravi_prakash);
+  font-size: var(--font-size-xxxxl);
+  letter-spacing: 0;
+  min-height: 96px;
+  width: 845px;
+  align-self: flex-end;
+  margin-top: 171px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.i-am {
+  letter-spacing: 0;
+  min-height: 72px;
+  margin-top: 143px;
+  margin-left: 41px;
+  line-height: normal;
+}
+
+.flex-row-2 {
+  min-width: 657px;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 19px;
+  margin-left: 41px;
+  display: flex;
+}
+
+.overlap-group-2 {
+  background-color: var(--alto);
+  height: 71px;
+  min-width: 257px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5.2px 0;
+  display: flex;
+}
+
+.customer {
+  height: 59px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 250px;
+  line-height: normal;
+}
+
+.restaurateur {
+  cursor: pointer;
+  min-width: 370px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.overlap-group1-2 {
+  background-color: var(--alto);
+  height: 70px;
+  min-width: 368px;
+  align-items: flex-end;
+  padding: 4px 7px;
+  display: flex;
+}
+
+.restaurateaur {
+  height: 59px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 353px;
+  line-height: normal;
+}
+
+.about {
+  letter-spacing: 0;
+  min-height: 36px;
+  min-width: 86px;
+  margin-top: 17px;
+  margin-left: 223px;
+  line-height: normal;
+}
+
+.text-2 {
+  letter-spacing: 0;
+  min-height: 36px;
+  min-width: 10px;
+  margin-top: 18px;
+  line-height: normal;
+}
+
+.contact-us {
+  letter-spacing: 0;
+  min-height: 36px;
+  min-width: 160px;
+  margin-top: 18px;
+  line-height: normal;
+}
+
+.vector {
+  height: 37px;
+  width: 42px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.log-in {
+  background-color: var(--white);
+  height: 1024px;
+  width: 1440px;
+  border: 1px;
+  align-items: flex-start;
+  display: flex;
+  overflow: hidden;
+}
+
+.overlap-group7 {
+  height: 1025px;
+  width: 1921px;
+  margin-top: -1px;
+  margin-left: -1px;
+  position: relative;
+}
+
+.rectangle-27 {
+  height: 68px;
+  width: 1920px;
+  background-color: #75839f;
+  border: 1px;
+  position: absolute;
+  top: 957px;
+  left: 1px;
+}
+
+.pchef-1 {
+  height: 1024px;
+  object-fit: cover;
+  width: 82px;
+  position: absolute;
+  top: 1px;
+  left: 552px;
+}
+
+.overlap-group5 {
+  min-height: 1022px;
+  width: 807px;
+  background: linear-gradient(#d9d9d900 0%, #586a8e 97.53%);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20.3px;
+  display: flex;
+  position: absolute;
+  top: 1px;
+  left: 634px;
+}
+
+.new-restaurant {
+  height: 75px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 560px;
+  align-self: flex-end;
+  margin-right: 41.56px;
+  line-height: normal;
+}
+
+.new-member-portal {
+  height: 450px;
+  width: 762px;
+  background-color: #586a8e5e;
+  flex-direction: column;
+  margin-top: 82px;
+  display: flex;
+}
+
+.restaurant-name {
+  height: 90.89px;
+  width: 456.8px;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 7.1px;
+  margin-left: 18.3px;
+  display: flex;
+}
+
+.restaurant-name-1 {
+  height: 41.4px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 284.25px;
+  line-height: normal;
+}
+
+.rectangle-6 {
+  background-color: var(--gallery);
+  height: 47.46px;
+  width: 452.76px;
+  border: 1px;
+  margin-left: 2px;
+}
+
+.address {
+  height: 104.02px;
+  min-width: 703.39px;
+  align-items: flex-end;
+  margin-top: 11.1px;
+  margin-left: 21.3px;
+  display: flex;
+}
+
+.flex-col {
+  min-height: 104px;
+  width: 453px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.address-1 {
+  height: 41px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 140px;
+  margin-left: 0;
+  line-height: normal;
+}
+
+.overlap-group1 {
+  background-color: var(--gallery);
+  height: 47px;
+  min-width: 453px;
+  align-items: flex-start;
+  padding: 6.1px 22.3px;
+  display: flex;
+}
+
+.street-address {
+  height: 29px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 166px;
+  line-height: normal;
+}
+
+.overlap-group2 {
+  background-color: var(--gallery);
+  height: 47px;
+  min-width: 111px;
+  align-items: flex-start;
+  margin-bottom: 0;
+  margin-left: 14px;
+  padding: 6.1px 21.3px;
+  display: flex;
+}
+
+.state {
+  height: 29px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 60px;
+  line-height: normal;
+}
+
+.overlap-group3 {
+  background-color: var(--gallery);
+  height: 47px;
+  min-width: 111px;
+  align-items: flex-start;
+  margin-bottom: 0;
+  margin-left: 7px;
+  padding: 6.1px 29.4px;
+  display: flex;
+}
+
+.zip {
+  height: 29px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 37px;
+  line-height: normal;
+}
+
+.phone-number {
+  min-height: 94.93px;
+  width: 704.44px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 16.2px;
+  margin-left: 18.3px;
+  display: flex;
+}
+
+.phone-number-1 {
+  height: 41px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 237px;
+  margin-left: 3.05px;
+  line-height: normal;
+}
+
+.flex-row {
+  min-width: 698px;
+  align-items: center;
+  gap: 4px;
+  margin-left: 0;
+  display: flex;
+}
+
+.text-1 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  height: 41px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 41px;
+  margin-top: 2.02px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.overlap-group {
+  background-color: var(--gallery);
+  height: 47px;
+  min-width: 654px;
+  align-items: flex-end;
+  padding: 4px 17.3px;
+  display: flex;
+}
+
+.phone {
+  color: #00000080;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  height: 35px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 209px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.join-now {
+  height: 48.47px;
+  min-width: 697.39px;
+  align-items: flex-start;
+  margin-top: 31.3px;
+  margin-left: 21.3px;
+  display: flex;
+}
+
+.join-now-container {
+  height: 48px;
+  width: 695px;
+  margin-top: 0;
+  position: relative;
+}
+
+.join-now-1 {
+  height: 47px;
+  width: 695px;
+  background-color: #0b1fd8cc;
+  border: 1px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.join-now-2 {
+  height: 48px;
+  letter-spacing: 0;
+  opacity: .8;
+  text-align: center;
+  width: 482px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 53px;
+}
+
+.flex-row-1 {
+  height: 49px;
+  min-width: 345px;
+  align-self: center;
+  align-items: flex-start;
+  gap: 63px;
+  margin-top: 362px;
+  margin-left: 110.7px;
+  display: flex;
+}
+
+.about-us {
+  height: 48px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 148px;
+  line-height: normal;
+}
+
+.place {
+  height: 48px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 134px;
+  align-self: flex-end;
+  line-height: normal;
+}
+
+.overlap-group6 {
+  height: 1024px;
+  width: 552px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.restaurant-portal {
+  height: 74px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 552px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.login-frame {
+  height: 1024px;
+  width: 551px;
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+
+.login {
+  height: 72px;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: normal;
+  position: absolute;
+  top: 181px;
+  left: 212px;
+}
+
+.sign-in-to-your-account {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  height: 38px;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 253px;
+  left: 133px;
+}
+
+.login-1 {
+  height: 215px;
+  width: 488px;
+  background-color: #576a8e5e;
+  border: 1px;
+  position: absolute;
+  top: 338px;
+  left: 36px;
+}
+
+.overlap-group-1 {
+  background-color: var(--gallery);
+  height: 49px;
+  min-width: 446px;
+  align-items: flex-start;
+  padding: 9px 5px;
+  display: flex;
+  position: absolute;
+  top: 357px;
+  left: 49px;
+}
+
+.user-id {
+  height: 29px;
+  letter-spacing: 0;
+  min-width: 81px;
+  text-align: center;
+  line-height: normal;
+}
+
+.overlap-group1-1 {
+  background-color: var(--gallery);
+  height: 49px;
+  min-width: 446px;
+  align-items: flex-start;
+  padding: 9px 5px;
+  display: flex;
+  position: absolute;
+  top: 420px;
+  left: 49px;
+}
+
+.password {
+  height: 29px;
+  letter-spacing: 0;
+  min-width: 111px;
+  text-align: center;
+  line-height: normal;
+}
+
+.login-container {
+  height: 48px;
+  width: 446px;
+  position: absolute;
+  top: 484px;
+  left: 49px;
+}
+
+.login-button {
+  height: 47px;
+  width: 446px;
+  background-color: #0a1fd7cc;
+  border: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.login-2 {
+  height: 48px;
+  letter-spacing: 0;
+  opacity: .8;
+  text-align: center;
+  text-shadow: 0 4px 4px #00000040;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 177px;
+}
+
+.icon-home {
+  cursor: pointer;
+  height: 37px;
+  width: 29px;
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+
+.icon-instagram {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 971px;
+  left: 299px;
+}
+
+.icon-twitter {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 971px;
+  left: 166px;
+}
+
+.icon-facebook {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 971px;
+  left: 232px;
+}
+
+
+
+:root {
+  --alto: #d9d9d9;
+  --black: #000;
+  --black-2: #000000b2;
+  --black-3: #0009;
+  --gallery: #f0ecec;
+  --white: #fff;
+  --font-size-l: 30px;
+  --font-size-m: 25px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 35px;
+  --font-size-xxxl: 48px;
+  --font-size-xxxxl: 55px;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-ravi_prakash: "Ravi Prakash", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+
+.poppins-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-35px {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-25px {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-semi-bold-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.roboto-normal-black-25px-2 {
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.e1b8c111.css.map */

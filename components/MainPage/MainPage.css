@@ -1,0 +1,134 @@
+.main-page {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  width: 1440px;
+}
+
+.overlap-group2-1 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1024px;
+  min-width: 1440px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 795px;
+  width: 886px;
+}
+
+.logo {
+  height: 223px;
+  width: 511px;
+}
+
+.title {
+  align-self: flex-end;
+  color: var(--white);
+  font-family: var(--font-family-ravi_prakash);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 171px;
+  min-height: 96px;
+  width: 845px;
+}
+
+.i-am {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 41px;
+  margin-top: 143px;
+  min-height: 72px;
+}
+
+.flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  gap: 30px;
+  margin-left: 41px;
+  margin-top: 19px;
+  min-width: 657px;
+}
+
+.overlap-group-2 {
+  align-items: flex-end;
+  background-color: var(--alto);
+  display: flex;
+  height: 71px;
+  justify-content: flex-end;
+  min-width: 257px;
+  padding: 5.2px 0;
+}
+
+.customer {
+  height: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 250px;
+}
+
+.restaurateur {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 370px;
+}
+
+.overlap-group1-2 {
+  align-items: flex-end;
+  background-color: var(--alto);
+  display: flex;
+  height: 70px;
+  min-width: 368px;
+  padding: 4px 7px;
+}
+
+.restaurateaur {
+  height: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 353px;
+}
+
+.about {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 223px;
+  margin-top: 17px;
+  min-height: 36px;
+  min-width: 86px;
+}
+
+.text-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 18px;
+  min-height: 36px;
+  min-width: 10px;
+}
+
+.contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 18px;
+  min-height: 36px;
+  min-width: 160px;
+}
+
+.vector {
+  height: 37px;
+  margin-left: 10px;
+  margin-top: 18px;
+  width: 42px;
+}
+
